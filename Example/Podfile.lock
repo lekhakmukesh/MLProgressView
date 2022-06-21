@@ -1,0 +1,16 @@
+PODS:
+  - MLProgressView (0.1.0)
+
+DEPENDENCIES:
+  - MLProgressView (from `../`)
+
+EXTERNAL SOURCES:
+  MLProgressView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MLProgressView: 12d5383d22fd1cf3b375e34367e787bf71a63fe1
+
+PODFILE CHECKSUM: 197e0caa25373844d71958a80e7b73c927b238ab
+
+COCOAPODS: 1.11.3

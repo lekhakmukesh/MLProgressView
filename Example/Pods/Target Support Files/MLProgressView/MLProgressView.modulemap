@@ -1,0 +1,6 @@
+framework module MLProgressView {
+  umbrella header "MLProgressView-umbrella.h"
+
+  export *
+  module * { export * }
+}
