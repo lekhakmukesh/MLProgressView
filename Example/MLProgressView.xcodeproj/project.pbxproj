@@ -40,9 +40,9 @@
 		607FACE51AFB9204008FA782 /* MLProgressView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MLProgressView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7A853D0D8778FC19FECC5582 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		7B3D7F781B5F5D68F773DED4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		7E4B9B13D67AA3138C6A634E /* MLProgressView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MLProgressView.podspec; path = ../MLProgressView.podspec; sourceTree = "<group>"; };
+		7A853D0D8778FC19FECC5582 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7B3D7F781B5F5D68F773DED4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7E4B9B13D67AA3138C6A634E /* MLProgressView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MLProgressView.podspec; path = ../MLProgressView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95E4BD289214395635C21C11 /* Pods-MLProgressView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MLProgressView_Example.debug.xcconfig"; path = "Target Support Files/Pods-MLProgressView_Example/Pods-MLProgressView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		AB619B837A6096F1D4FE0007 /* Pods-MLProgressView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MLProgressView_Tests.release.xcconfig"; path = "Target Support Files/Pods-MLProgressView_Tests/Pods-MLProgressView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E066BD667D2BC644A84ED09A /* Pods-MLProgressView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MLProgressView_Example.release.xcconfig"; path = "Target Support Files/Pods-MLProgressView_Example/Pods-MLProgressView_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -156,7 +156,6 @@
 				E39351C6C945419FA5ED3C86 /* Pods-MLProgressView_Tests.debug.xcconfig */,
 				AB619B837A6096F1D4FE0007 /* Pods-MLProgressView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
